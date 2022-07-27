@@ -15,19 +15,95 @@
 
 <body class="page">
   <div class="wrapper">
-
     <header class="header">
-      <nav></nav>
+      <div class="container">
+        <div class="header__inner">
+      <div class="header__logo-wrapper">
+        <a class="link header__logo header__logo--main" href="#" aria-label="логотип компании">
+          <img src="img/logo.svg" width="120" height="35" alt="логотип компании">
+        </a>
+      </div>
+      <div class="test">
+      <nav class="navigation">
+        <ul class="navigation__list">
+          <li class="navigation__item">
+            <a href="#" target="_blank" class="link navigation__link">FAQ</a>
+          </li>
+          <li class="navigation__item">
+            <a href="#" target="_blank" class="link navigation__link">Оплата и доставка</a>
+          </li>
+          <li class="navigation__item">
+            <a href="#" target="_blank" class="link navigation__link">Возврат</a>
+          </li>
+          <li class="navigation__item">
+            <a href="#" target="_blank" class="link navigation__link">Исследования</a>
+          </li>
+          <li class="navigation__item">
+            <a href="#" target="_blank" class="link navigation__link">Личный кабинет</a>
+          </li>
+        </ul>
+      </nav>
+
+      <div class="header__info-wrapper">
+        <a href="tel:88006000990" class="link header__link header__link--phone">
+          <span>8 (800) 600-09-90</span>
+          <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M13.1563 14.8749C15.0831 13.5049 15.7195 11.4371 18.1387 14.0658C20.5564 16.6946 20.3139 17.6587 18.3871 19.0287C11.0987 24.2706 -5.46969 6.86329 1.61738 0.99062C3.54421 -0.379324 3.46778 -0.586109 5.88697 2.04134C8.30469 4.67138 7.00397 5.02808 5.07861 6.39932C3.15179 7.76926 11.2295 16.2448 13.1563 14.8749Z" fill="currentColor"/>
+          </svg>
+        </a>
+
+
+        <a class="link header__link header__link--cart" href="#" target="_blank">
+          <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <g clip-path="url(#clip0_378_8)">
+            <path d="M32 12H26.5662L20.8575 2.48535C20.5743 2.01272 19.96 1.8584 19.4854 2.14259C19.0118 2.42678 18.8585 3.041 19.1427 3.51464L24.2338 12H7.76622L12.8574 3.51458C13.1416 3.04093 12.9883 2.42671 12.5147 2.14252C12.0391 1.85834 11.4268 2.01265 11.1426 2.48528L5.43389 11.9999H0V13.9999H2.17042L4.71093 27.5517C4.97653 28.9707 6.21676 30 7.66018 30H24.3399C25.7832 30 27.0235 28.9707 27.2881 27.5527L29.8295 13.9999H32.0001C32 13.9999 32 12 32 12ZM25.3222 27.1846C25.2344 27.6572 24.8213 28 24.3398 28H7.66018C7.17873 28 6.76568 27.6573 6.67681 27.1836L4.20463 13.9999H27.7954L25.3222 27.1846Z" fill="currentColor"/>
+            </g>
+            <defs>
+            <clipPath id="clip0_378_8">
+            <rect width="32" height="32" fill="currentColor"/>
+            </clipPath>
+            </defs>
+          </svg>
+          <div class="header__cart-circle">1</div>
+        </a>
+
+      </div>
+      </div>
+      <div class="header__buttons-mobile">
+        <button class="header__toggle header__toggle--open" type="button" aria-label="Переключатель отображения меню">
+          <svg width="34" height="20" viewBox="0 0 34 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M23.1818 1.15039V4.15039L0 4.15039L1.26664e-07 1.15039L23.1818 1.15039Z" fill="#4BB1BC"/>
+            <path d="M23.1818 1.15039V4.15039L0 4.15039L1.26664e-07 1.15039L23.1818 1.15039Z" fill="#4BB1BC"/>
+            <path d="M23.1818 1.15039V4.15039L0 4.15039L1.26664e-07 1.15039L23.1818 1.15039Z" fill="currentColor"/>
+            <path d="M32 8.15039V11.1504L0 11.1504L1.74846e-07 8.15039L32 8.15039Z" fill="#4BB1BC"/>
+            <path d="M32 8.15039V11.1504L0 11.1504L1.74846e-07 8.15039L32 8.15039Z" fill="#4BB1BC"/>
+            <path d="M32 8.15039V11.1504L0 11.1504L1.74846e-07 8.15039L32 8.15039Z" fill="currentColor"/>
+            <path d="M32 15.1504V18.1504L0 18.1504L1.74846e-07 15.1504L32 15.1504Z" fill="#4BB1BC"/>
+            <path d="M32 15.1504V18.1504L0 18.1504L1.74846e-07 15.1504L32 15.1504Z" fill="#4BB1BC"/>
+            <path d="M32 15.1504V18.1504L0 18.1504L1.74846e-07 15.1504L32 15.1504Z" fill="currentColor"/>
+            </svg>
+        </button>
+        <button class="header__toggle header__toggle--close is-hidden" type="button" aria-label="Переключатель отображения меню">
+          <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M1 1L6.00027 6.00027M6.00027 6.00027L10.9995 10.9995M6.00027 6.00027L1.00053 11M6.00027 6.00027L11 1.00054" stroke="currentColor" stroke-width="2"/>
+            </svg>
+        </button>
+      </div>
+      </div>
 
     </header>
 
     <main class="page-content">
-      <section>АКТИВИРУЙ
-        ИММУНИТЕТ!</section>
-      <section></section>
+
+      <section class="intro">
+        АКТИВИРУЙ ИММУНИТЕТ!
+      </section>
+
+      <section class="discount">
+
+      </section>
 
     </main>
-
   </div>
   <script src="bundle.js"></script>
 </body>
