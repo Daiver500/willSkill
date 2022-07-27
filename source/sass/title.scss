@@ -1,31 +1,37 @@
 .title {
-  font-weight: 500;
-  font-size: 64px;
-  line-height: 70.4px;
+  font-weight: 700;
+  font-size: 144px;
+  line-height: 152px;
   margin: 0;
-  font-family: 'Orchidea Pro', 'Arial', sans-serif;
   text-transform: uppercase;
 
   @include vp-1023 {
     font-size: 36px;
-    line-height: 43.2px;
+    line-height: 44px;
   }
 }
 
 .title--medium {
   font-size: 48px;
-  line-height: 52.8px;
-  text-transform: unset;
-  margin-bottom: 25px;
+  line-height: 57px;
 
   @include vp-1023 {
     font-size: 24px;
-    line-height: 28.8px;
-    margin-bottom: 20px;
+    line-height: 28px;
+  }
+}
+
+.title--small {
+  font-size: 36px;
+  line-height: 43px;
+  color: $color-default-black;
+
+  @include vp-1023 {
+    font-size: 22px;
+    line-height: 24px;
   }
 }
 
 .title span {
-  text-transform: none;
-  font-family: 'Orchidea Pro Italic', 'Arial', sans-serif;
+  color: $color-selective-yellow;
 }

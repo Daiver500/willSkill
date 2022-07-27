@@ -1,38 +1,22 @@
+/* rubik-regular - latin_cyrillic */
 @font-face {
-  font-family: 'Manrope';
+  font-family: 'Rubik';
   font-style: normal;
-  font-weight: 500;
+  font-weight: 400;
   font-display: swap;
   src:
-    url('../fonts/manrope-500.woff2') format('woff2'), /* Super Modern Browsers */
-    url('../fonts/manrope-500.woff') format('woff'), /* Modern Browsers */
-}
+    url('../fonts/rubik-regular.woff2') format('woff2'), /* Super Modern Browsers */
+    url('../fonts/rubik-regular.woff') format('woff'), /* Modern Browsers */
 
+}
+/* rubik-700 - latin_cyrillic */
 @font-face {
-  font-family: 'Manrope';
+  font-family: 'Rubik';
   font-style: normal;
   font-weight: 700;
-  src:
-    url('../fonts/manrope-700.woff2') format('woff2'), /* Super Modern Browsers */
-    url('../fonts/manrope-700.woff') format('woff'), /* Modern Browsers */
-}
-
-@font-face {
-  font-family: 'Orchidea Pro';
-  font-style: normal;
-  font-weight: 500;
   font-display: swap;
   src:
-    url('../fonts/OrchideaPro-medium.woff2') format('woff2'), /* Super Modern Browsers */
-    url('../fonts/OrchideaPro-medium.woff') format('woff'), /* Modern Browsers */
-}
+    url('../fonts/rubik-700.woff2') format('woff2'), /* Super Modern Browsers */
+    url('../fonts/rubik-700.woff') format('woff'), /* Modern Browsers */
 
-@font-face {
-  font-family: 'Orchidea Pro Italic';
-  font-style: italic;
-  font-weight: 500;
-  font-display: swap;
-  src:
-    url('../fonts/OrchideaPro-mediumItalic.woff2') format('woff2'), /* Super Modern Browsers */
-    url('../fonts/OrchideaPro-mediumItalic.woff') format('woff'), /* Modern Browsers */
 }
