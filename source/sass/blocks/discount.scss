@@ -1,0 +1,169 @@
+.discount {
+  padding-top: 110px;
+  padding-bottom: 112px;
+
+  @include vp-1023 {
+    padding-top: 122px;
+  }
+
+  @include vp-767 {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+}
+
+.discount__inner {
+  display: flex;
+  flex-direction: column;
+}
+
+.discount__title-wrapper {
+  display: flex;
+  text-align: center;
+  max-width: 860px;
+  align-self: center;
+  margin-bottom: 85px;
+
+  @include vp-1023 {
+    max-width: 100%;
+    padding: 0 140px;
+    margin-bottom: 40px;
+
+    @include vp-767 {
+      padding : 0;
+    }
+  }
+}
+
+.discount__price-wrapper {
+  margin-bottom: 59px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  @include vp-767 {
+    margin-bottom: 40px;
+  }
+}
+
+.discount__price {
+  margin: 0;
+  font-size: 48px;
+  line-height: 57px;
+
+  @include vp-767 {
+    font-size: 28px;
+    line-height: 32px;
+  }
+}
+
+.discount__price--prev {
+  font-size: 36px;
+  line-height: 43px;
+  text-decoration: line-through;
+  color: $color-dark-grey;
+  margin-right: 32px;
+
+  @include vp-767 {
+    font-size: 24px;
+    line-height: 28px;
+  }
+}
+
+.discount__images {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 45px;
+
+  @include vp-767 {
+    flex-direction: column;
+    margin-bottom: 40px;
+  }
+}
+
+.discount__image--nootris {
+  padding-left: 111px;
+  padding-right: 111px;
+
+  @include vp-1023 {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+
+  @include vp-767 {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
+.discount__image--nootris,
+.discount__image--ginger {
+  @include vp-767 {
+    margin-bottom: 25px;
+  }
+}
+
+.discount__info {
+  margin-bottom: 64px;
+  display: flex;
+  justify-content: center;
+
+  @include vp-767 {
+    flex-direction: column;
+    margin-bottom: 45px;
+  }
+}
+
+.discount__title,
+.discount__text {
+  margin-top: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.discount__title {
+  padding-left: 16%;
+  padding-right: 15%;
+  font-size: 36px;
+  line-height: 43px;
+
+  @include vp-1023 {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+
+  @include vp-767 {
+    padding-left: 0;
+    padding-right: 0;
+    text-align: center;
+  }
+}
+
+.discount__title span {
+  font-size: 24px;
+  line-height: 28px;
+}
+
+.discount__title span,
+.discount__text span {
+  color: $color-selective-yellow;
+}
+
+.discount__btn {
+  min-width: 256px;
+  align-self: center;
+}
+
+.discount .title--medium {
+  margin-bottom: 0;
+}
+
+@media (min-width: 1024px) and (max-width: 1040px) {
+  .discount__title {
+    padding-left: 15%;
+    padding-right: 14%;
+  }
+}

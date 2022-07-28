@@ -105,8 +105,8 @@
   }
 }
 
-.intro__image--vitamin img,
-.intro__image--lemon img {
+.intro__image--vitamin,
+.intro__image--lemon {
   position: relative;
   object-fit: contain;
 
@@ -115,7 +115,7 @@
   }
 }
 
-.intro__image--vitamin img {
+.intro__image--vitamin {
   max-width: 333px;
   max-height: 574px;
   top: 63px;
@@ -135,7 +135,7 @@
   }
 }
 
-.intro__image--lemon img {
+.intro__image--lemon {
   left: -223px;
   max-height: 462px;
   max-width: 533px;

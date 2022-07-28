@@ -114,10 +114,14 @@
   }
 }
 
-.header__toggle {
+.header__button-mobile {
   border: none;
   background-color: transparent;
   color: $color-default-white;
+}
+
+.header__toggle--open {
+  padding: 0;
 }
 
 @media (min-width: 1024px) and (max-width: 1385px) {

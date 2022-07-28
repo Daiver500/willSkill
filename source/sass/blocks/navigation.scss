@@ -25,6 +25,8 @@
   @include vp-767 {
     transform: translateY(50px);
     opacity: 1;
+    height: 100vh;
+    z-index: 100;
   }
 }
 
